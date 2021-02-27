@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+label, .checkin-title , input{
+    margin: 20px;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+.flights{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flight{
+    width: 30%;
+    border: 1px solid ;
+    padding: 10px;
+    margin: 10px 5px;
+    text-align: center;
+}
+.flight img{
+    width: 100%;
+}
+
+
+.header{
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header li a{
+    color: #222;
+    text-decoration: none;
+}
+.header li a:hover{
+    text-decoration: none;
+}

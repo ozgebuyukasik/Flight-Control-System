@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uçuş Kontrol Sistemi - Check-In</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <ul class="header">
+            <li><a href="./flights.html">Uçuşlar</a></li>
+            <li><a href="./checkin.html">Rezervasyonlarım</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h5 class="checkin-title">Lütfen kendinize ait rezervasyonlara erişmek ve check-in yapabilmek için pasaport numaranızı giriniz </h5>
+        <div>
+            <label for="passport">Pasaport Numarası:</label>
+            <input type="text" name="passport" id="passport">
+        </div>
+        <button id="checkin-btn">Rezervasyonlarımı Bul</button>
+        <div class="reservations" id="reservations"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
